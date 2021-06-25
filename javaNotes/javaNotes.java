@@ -10,7 +10,6 @@ ArrayList<String> array = ???
 ////////////////////////////////////////////////////////////////////////////
 // HASHES
 ////////////////////////////////////////////////////////////////////////////
-
 // Declare a new HashMap
 HashMap<String, Integer> hashMap = new HashMap<String, Integer>();
 
@@ -22,3 +21,12 @@ hashMap.put(key, value)
 
 // Check for key in HashMap (returns true or false)
 hashMap.containsKey(key)
+
+// Iterate through and print out all key, value pairs in a HashMap
+for (Map.Entry<String,Integer> pair : map.entrySet()) {
+  String key = pair.getKey();
+  int value = pair.getValue();
+  // do stuff
+  System.out.println(String.format("%s, %d", key, value ));
+}
+
