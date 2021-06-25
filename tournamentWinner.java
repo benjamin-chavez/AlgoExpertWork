@@ -14,12 +14,14 @@ class Program {
 			
 		// Iterate through the competitions and results arrays to find the winner of each match
 		for (int idx = 0; idx < competitions.size(); idx++){
-			
 			ArrayList<String> match = competitions.get(idx);
+			int result = results.get(idx);
+			
 			String homeTeam = match.get(0);
 			String awayTeam = match.get(1);
-			String matchWinner = results.get(idx) == HOME_TEAM_WON ? homeTeam : awayTeam;
-			System.out.println(matchWinner);
+			
+			String matchWinner = (result == HOME_TEAM_WON) ? homeTeam : awayTeam;
+			// System.out.println(matchWinner);
 			// Update HashMap by incrementing points or adding winner to the HashMap
 			updateScores(matchWinner, 3, scores);
 			
