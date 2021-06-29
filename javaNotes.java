@@ -33,6 +33,9 @@ Arrays.sort(myArray);
 // Declare new ArrayList
 ArrayList<String> array = ???
 
+// Convert Array to String
+String str = new String(array);
+
 
 
 
