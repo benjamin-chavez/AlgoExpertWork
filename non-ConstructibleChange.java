@@ -3,15 +3,21 @@ import java.util.*;
 class Program {
 
   public int nonConstructibleChange(int[] coins) {
-    // Write your code here.
-		Arrays.sort(coins);
+		// Create Variables
 		int maxChange = 0;
-		for ( int idx = 0; idx < coins.length; idx++){
-			int curChange = maxChange + 1;
-			if (coins[idx] > curChange) {
-				return curChange;
-			} 
-			maxChange += coins[idx];
+		// Sort coins array
+		Arrays.sort(coins);
+		
+		// Iteratate through coin array
+		// Test: If max amount of change +1 is less than or equal to cur number add cur number to max change
+		//					else, return max + 1
+		for ( int coin : coins) {
+			// System.out.println(coin);
+			if ( coin > maxChange + 1){
+				return maxChange + 1;
+			}
+			
+			maxChange += coin;
 		}
 		
     return maxChange + 1;
