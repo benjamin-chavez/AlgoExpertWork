@@ -36,6 +36,9 @@ ArrayList<String> array = ???
 // Convert Array to String
 String str = new String(array);
 
+// Get size of an array
+
+
 
 
 
