@@ -65,3 +65,9 @@ for (Map.Entry<String,Integer> pair : map.entrySet()) {
   System.out.println(String.format("%s, %d", key, value ));
 }
 
+/* Check if a key exists in a HashMap
+    - if the key exists, iterate its value by 1
+    - if the key does not exist, add key/value pair with a default value
+*/
+
+myHashMap.put(key, myHashMap.getOrDefault(key, 0) + 1);
