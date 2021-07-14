@@ -19,3 +19,7 @@ def removeDuplicatesFromLinkedList(linkedList):
 		nextNode = nextNode.next
 	# Return the modified LinkedList
 	return linkedList
+
+
+
+"""NOTE: this solution only works because python does not throw null pointer errors. See the java code for a more universal solution"""
