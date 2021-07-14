@@ -28,8 +28,6 @@ class Program {
 }
 
 
-
-
 // ATTEMPT 1
 // import java.util.*;
 
