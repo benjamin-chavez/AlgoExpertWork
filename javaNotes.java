@@ -37,7 +37,10 @@ ArrayList<String> array = ???
 String str = new String(array);
 
 // Get size of an array
+myArray.length
 
+// Get item in Array by index:
+myArray[index]
 
 
 
