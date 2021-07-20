@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Program {
+	// O(log(n)) time || O(1) space
   public static int binarySearch(int[] array, int target) {
     // Write your code here.
 		// create lo, high, and mid variables
