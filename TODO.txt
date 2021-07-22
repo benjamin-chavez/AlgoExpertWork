@@ -2,3 +2,6 @@
  - Review primitives in Java and how they differ from "non-primitives"?
  - static functions in Java
  - function vs method in java
+
+ Python
+ -Iterating using range vs enumerate?
