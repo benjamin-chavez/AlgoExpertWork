@@ -1,4 +1,9 @@
+##########################################################
 # Arrays
+##########################################################
+# Sort an Array
+my_array.sort()
+
 # Slice (copy) an array
 my_array = your_array[:]
 
@@ -10,3 +15,10 @@ if not len(my_array):
 
 # Return the largest number:
 x = max(5, 10)
+
+
+##########################################################
+# Dictionaries
+##########################################################
+# Get value using key
+my_dict[key]

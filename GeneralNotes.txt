@@ -1,10 +1,12 @@
-Tail Recursion: If you make your recursive call on the last line of your function, then each call back can simply replace the previous returned value and therefore save you space in memory. ie. O(1) instead of O(n). In general, always acknowledge that recursion might involve additional memory due to the call stack.
+Tail Recursion: 
+  If you make your recursive call on the last line of your function, then each call back can simply replace the previous returned value and therefore save you space in memory. ie. O(1) instead of O(n). In general, always acknowledge that recursion might involve additional memory due to the call stack.
 
-See video explanation of the "Palindrome Check" exercise for more info.
+  See video explanation of the "Palindrome Check" exercise for more info.
 
 
 
-
+Memoization:
+  In computing, memoization or memoisation is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again. (Nth Fibonacci Video Explanation)
 
 
 
