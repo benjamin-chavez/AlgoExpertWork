@@ -2,7 +2,10 @@
 # Strings
 ##########################################################
 # Reverse a String
-string = "Hello World"[::-1]
+my_string = "Hello World"[::-1]
+
+# Sort a String
+"".join(sorted(my_string))
 
 ##########################################################
 # Integers
@@ -34,3 +37,12 @@ x = max(5, 10)
 ##########################################################
 # Get value using key
 my_dict[key]
+
+# 
+dict.setdefault(key, default_value)
+
+# Get all values from a dict
+my_dict.values()
+
+# Convert all values in a dictionary into a list
+list(my_dict.values())
