@@ -2,7 +2,7 @@
 // STRINGS
 ////////////////////////////////////////////////////////////////////////////
 // Declare new StringBuilder
-StringBuilder strbuilder = new StringBuilder();
+// StringBuilder strbuilder = new StringBuilder();
 
 // Declare new String
 String str = "";
@@ -37,11 +37,23 @@ ArrayList<String> array = ???
 String str = new String(array);
 
 // Get size of an array
-myArray.length
+myArray.length;
 
 // Get item in Array by index:
 myArray[index]
 
+
+////////////////////////////////////////////////////////////////////////////
+// ARRAYLISTS
+////////////////////////////////////////////////////////////////////////////
+// To sort and arrayList
+Collections.sort(myArrayList);
+
+// Get Size of arrayList
+myArrayList.size();
+
+// Get item by index from an ArrayList:
+myArrayList.get(index);
 
 ////////////////////////////////////////////////////////////////////////////
 // LISTS
