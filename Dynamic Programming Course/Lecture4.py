@@ -18,7 +18,8 @@
         5. Where to look for the answer?
             f(n)
 
-
+    Time Complexity: O(n) - where n is the number of stairs
+    Space Compelxity: O(n) - we allocate an array of n+1
 
 """
 
