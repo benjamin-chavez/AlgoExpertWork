@@ -2,42 +2,45 @@
 // STRINGS
 ////////////////////////////////////////////////////////////////////////////
 // Declare new StringBuilder
-StringBuilder strbuilder = new StringBuilder();
+StringBuilder strbuilder = new StringBuilder()
 
 // Declare new String
-String str = "";
+String str = ""
 
 // Add char to String
-str += char;
+str += char
 
 // Add char to StringBuilder
-strbuilder.append(char);
+strbuilder.append(char)
 
 // Convert a StringBuilder to a String
 strbuilder.toString()
 
 // Get length of a String
-str.length();
+str.length()
 
 // Access character of String at a specified index
-str.charAt(idx);
+str.charAt(idx)
 
 
 
 ////////////////////////////////////////////////////////////////////////////
 // ARRAYS
 ////////////////////////////////////////////////////////////////////////////
+// Initialize a new array (of integers):
+int[] my_array = new int[size]
+
 // Sort an Array
-Arrays.sort(myArray);
+Arrays.sort(myArray)
 
 // Declare new ArrayList
 ArrayList<String> array = ???
 
 // Convert Array to String
-String str = new String(array);
+String str = new String(array)
 
 // Get size of an array
-myArray.length;
+myArray.length
 
 // Get item in Array by index:
 myArray[index]
@@ -45,18 +48,21 @@ myArray[index]
 // Copy an array into a new array
 newArray = myArray.clone()
 
+// Print an array:
+System.out.println(Arrays.toString(myArray))
+
 
 ////////////////////////////////////////////////////////////////////////////
 // ARRAYLISTS
 ////////////////////////////////////////////////////////////////////////////
 // To sort and arrayList
-Collections.sort(myArrayList);
+Collections.sort(myArrayList)
 
 // Get Size of arrayList
-myArrayList.size();
+myArrayList.size()
 
 // Get item by index from an ArrayList:
-myArrayList.get(index);
+myArrayList.get(index)
 
 ////////////////////////////////////////////////////////////////////////////
 // LISTS
@@ -78,7 +84,7 @@ myArray.get(index)
 // HASHES
 ////////////////////////////////////////////////////////////////////////////
 // Declare a new HashMap
-HashMap<String, Integer> hashMap = new HashMap<String, Integer>();
+HashMap<String, Integer> hashMap = new HashMap<String, Integer>()
 
 // Get value in HashMap using key (returns value)
 hashMap.get(key)
@@ -91,10 +97,10 @@ hashMap.containsKey(key)
 
 // Iterate through and print out all key, value pairs in a HashMap
 for (Map.Entry<String,Integer> pair : map.entrySet()) {
-  String key = pair.getKey();
-  int value = pair.getValue();
+  String key = pair.getKey()
+  int value = pair.getValue()
   // do stuff
-  System.out.println(String.format("%s, %d", key, value ));
+  System.out.println(String.format("%s, %d", key, value ))
 }
 
 /* Check if a key exists in a HashMap
@@ -102,4 +108,15 @@ for (Map.Entry<String,Integer> pair : map.entrySet()) {
     - if the key does not exist, add key/value pair with a default value
 */
 
-myHashMap.put(key, myHashMap.getOrDefault(key, 0) + 1);
+myHashMap.put(key, myHashMap.getOrDefault(key, 0) + 1)
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////
+// INT's
+////////////////////////////////////////////////////////////////////////////
+// Return the max of two integers:
+Math.max(int1, int2)
+
