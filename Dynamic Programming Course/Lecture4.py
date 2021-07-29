@@ -31,7 +31,7 @@ def climbStairs(n):
 
 # OPTIMIZED SPACE COMPLEXITY
 # Time Complexity: O(n) - where n is the number of stairs
-# Space Compelxity: O(n) - we allocate an array of n+1
+# Space Compelxity: O(1) - we allocate an array of n+1
 def climbStairs(n):
     dp = [1, 2]     # integer array of size of n+1
     for i in range(2, n):
