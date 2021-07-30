@@ -16,7 +16,7 @@ Problem:
 def paidStaircase(n, p = []):
     
     dp = [None] * (n + 1)       #Int array of size n+1
-    fromPath = [] #Int array of size n+1
+    fromPath = []               #Int array of size n+1
     dp[0] = 0
     dp[1] = p[1]
 
@@ -35,9 +35,6 @@ def paidStaircase(n, p = []):
         elif fromPath[i] != fromPath[i-1]:
             path.append(fromPath[i])
  
- 
-    
-    revPath = [ele for ele in reversed(path)]
     return path
 
 
