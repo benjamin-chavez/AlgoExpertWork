@@ -16,6 +16,12 @@ max(integer1, integer2)
 ##########################################################
 # Arrays
 ##########################################################
+# Initialize an empty array of size n:
+my_array = [None] * n
+
+# Initialize an array of arrays with a specific size of mxn
+my_array = [ [ None for y in range( n ) ] for x in range( m ) ]
+
 # Sort an Array
 my_array.sort()
 
@@ -30,6 +36,8 @@ if not len(my_array):
 
 # Return the largest number:
 x = max(5, 10)
+
+
 
 
 ##########################################################
